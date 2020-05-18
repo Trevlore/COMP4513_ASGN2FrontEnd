@@ -20,7 +20,7 @@ const setToken = token =>
 
 export const handleLogin = async (values) => {
     try {
-        const response = await fetch(`https://jolly-brattain-ae52fe.netlify.app/api/login`, {
+        const response = await fetch(`https://demos-277419.uc.r.appspot.com/api/login`, {
           method: 'POST',
           mode: 'cors',
           headers: {
