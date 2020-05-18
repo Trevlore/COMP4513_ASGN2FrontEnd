@@ -20,7 +20,7 @@ const setToken = token =>
 
 export const handleLogin = async (values) => {
     try {
-        const response = await fetch(`${{secrets.backend_url}}/api/login`, {
+        const response = await fetch(`https://jolly-brattain-ae52fe.netlify.app/api/login`, {
           method: 'POST',
           mode: 'cors',
           headers: {
